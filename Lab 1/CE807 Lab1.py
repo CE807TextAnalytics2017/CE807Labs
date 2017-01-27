@@ -93,8 +93,8 @@ print sorted(vectorizer.get_stop_words())[:20]
 
 import nltk
 
-s = nltk.stem.SnowballStemmer('english')
-print s.stem('cats')
+english_stemmer = nltk.stem.SnowballStemmer('english')
+print english_stemmer.stem('cats')
 
 from nltk.tokenize import word_tokenize
 
